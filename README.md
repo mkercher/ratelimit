@@ -60,7 +60,7 @@ go [here](https://golang.org/doc/install).
 
 ## The configuration format
 
-The rate limit configuration file format is YAML (mainly so that comments are supported).
+The rate limit configuration file format is YAML (mainly so that comments are supported). Configs are set by environment (e.g. [production](https://github.com/lyft/runtime/tree/master/data/ratelimit-production-iad/config)) and domain (e.g. [coupons](https://github.com/lyft/runtime/blob/b3efd0faa3bd57231ec1b0cbe63cff3b0d60b9cb/data/ratelimit-production-iad/config/coupons.yaml)).
 
 ### Definitions
 
